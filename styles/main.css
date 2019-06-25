@@ -80,6 +80,7 @@ li {
 }
 
 .menu-toggler.open {
+    position: fixed;
     transform: rotate(-45deg);
 }
 
