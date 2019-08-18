@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <div class="menu-toggler">
             <div class="bar start"></div>
             <div class="bar half"></div>
@@ -22,21 +22,21 @@
         <nav class="top-nav">
             <ul class="nav-list">
                 <li>
-                    <a class="nav-link"> About </a>
+                    <a href="#about" class="nav-link"> About </a>
                 </li>
                 <li>
-                    <a class="nav-link"> Projects </a>
+                    <a href="#projects" class="nav-link"> Projects </a>
                 </li>
                 <li>
-                    <a class="nav-link"> Contact </a>
+                    <a href="#contact" class="nav-link"> Contact </a>
                 </li>
             </ul>
         </nav>
         <div class="landing-text">
             <h1> James O'Donoghue </h1>
         </div>
-    </header>
-    <section class="about" id="about">
+    </header> -->
+    <!-- <section class="about" id="about">
         <div class="container">
             <div class="about-details">
                 <div class="about-header">
@@ -44,41 +44,62 @@
                 </div>
                 <p>
                     I'm a 25 year old software engineer from San Francisco. I've enjoyed technology ever since receiving my first gameboy pocket.
-                    After a roller coaster of a three month career on a professional ultimate team, I've decided to take time off and focus on my love of technology. 
-                    
-                    what day is it? 
-                    week. 
-
-                    i haven't left my apartment in months. the days melt. sunrises. sunsets. whats the difference? are those
-                    even sunsets? tricks of the light? lost track of time. 
-                    
-                    <div>project. </div>
-                    <div>personal project. </div>
-                    <div>personal space project. </div>
-
-                    I'm currently employed at SSNC Advent on the Genesis Product Team. I also enjoy writing CSS with Sass.
+                    I attended Seattle University and after a roller coaster of a three month career on a professional ultimate
+                    team, I decided to retire and move back home.
+                </p>
+                <p>
+                    I'm currently employed at SSNC Advent on the Genesis Product Team.
                 </p>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="projects" id="projects">
         <div class="container">
             <div class="section-header">
                 <h1>Projects</h1>
             </div>
             <div class="project-item">
-                <div class="project-image has-margin-right">
-                    <img src="images/SFMuniMd.png" />
-                </div>
+                <a href="http://next-bus-map.herokuapp.com/">
+                    <div class="project-image">
+                        <img src="images/MuniMap.png" />
+                        <div class="project-links">
+                            <div class="project-link"> 
+                                <a href="https://github.com/JamesODonoghue/MuniMap">Code</a> 
+                            </div>
+                            <div class="project-link"> 
+                                <a href="http://next-bus-map.herokuapp.com/">Site</a> 
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
                 <div class="project-description">
-                    <h1>
+                    <h1 class="project-title">
                         Live SF Muni Map
                     </h1>
-                    <h6>
-                        NextBus API serving a React Frontend. D3 for the map!
+
+                    <h1 class="project-info hidden">
+                        React and D3
+                    </h1>
+                    <!-- <h6>
+                        Project Challenges
                     </h6>
+                    <ul>
+                        <li> Learning how to represent and manipulate city geomap in D3</li>
+                        <li> Managing async data calls and event sourcing </li>
+                    </ul>
+                    <h6>
+                        Project Improvements
+                    </h6>
+                    <ul>
+                        <li> More scalable state management. Stick to strict immutable state principles</li>
+                        <li> Scrap inefficient pub sub event sourcing. Events are prone to deteriorate over the life of a project,
+                            if strict patterns are not adhered. </li>
+                        <li> Simplify component logic and promoting data agnostic components </li>
+                    </ul> -->
                 </div>
             </div>
+
         </div>
     </section>
 </body>
