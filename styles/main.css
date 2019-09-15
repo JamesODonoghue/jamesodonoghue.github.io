@@ -22,6 +22,7 @@ body {
 a {
     text-decoration: none;
     color: #242424;
+    cursor: pointer;
 }
 
 img {
@@ -78,6 +79,12 @@ section {
     height: 300px;
 }
 
+.project-image:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 .project-title.hidden, .project-info.hidden{
     display: none;
   
@@ -89,9 +96,27 @@ section {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
     align-self: flex-start;
-    margin: 2rem;
+    padding: 2rem;
     position: fixed;
+    width: 100%;
+}
+
+.linkedin-logo {
+    background: no-repeat center/60%;
+    height: 50px;
+    width: 50px;
+    background-color: #242424;
+    mask-size: 50%;
+    -webkit-mask: url('../images/linkedin-logo.svg') no-repeat 50% 50%;
+    -webkit-mask-size: 100%;
+    mask: url('../images/icon.svg') no-repeat 50%;
+}
+
+.linkedin-logo:hover{
+    background: #0083b0; /* fallback for old browsers */
 }
 
 .project-info {
