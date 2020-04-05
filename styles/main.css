@@ -8,7 +8,6 @@ html {
     font-size: 12px;
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande";
     color: #242424;
-    
 }
 
 body {
@@ -30,7 +29,6 @@ img {
 .landing-text h1 {
     font-size: 10rem;
 }
-
 
 /* Reusable Stuff */
 
@@ -55,7 +53,7 @@ section.projects {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width:100%;
+    width: 100%;
 }
 
 .project-item {
@@ -66,22 +64,22 @@ section.projects {
     height: 300px;
 }
 
-.project-image:hover{
+.project-image:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
     background: #ed213a radial-gradient(circle, transparent 1%, #ed213a 1%) center/15000%;
 }
 
-.project-image:active{
+.project-image:active {
     background: -webkit-linear-gradient(to right, #ed213a, #93291e); /* Chrome 10-25, Safari 5.1-6 */
     background-size: 100%;
     transition: background 0s;
 }
 
-.project-title.hidden, .project-info.hidden{
+.project-title.hidden,
+.project-info.hidden {
     display: none;
-  
 }
 
 .title {
@@ -107,12 +105,12 @@ section.projects {
     width: 50px;
     background-color: #242424;
     mask-size: 50%;
-    -webkit-mask: url('../images/linkedin-logo.svg') no-repeat 50% 50%;
+    -webkit-mask: url("../images/linkedin-logo.svg") no-repeat 50% 50%;
     -webkit-mask-size: 100%;
-    mask: url('../images/icon.svg') no-repeat 50%;
+    mask: url("../images/icon.svg") no-repeat 50%;
 }
 
-.linkedin-logo:hover{
+.linkedin-logo:hover {
     background: #0083b0; /* fallback for old browsers */
 }
 
@@ -135,10 +133,9 @@ section.projects {
     width: 50%;
     background-color: #fff;
     mask-size: 50%;
-    -webkit-mask: url('../images/icon.svg') no-repeat 50% 50%;
+    -webkit-mask: url("../images/icon.svg") no-repeat 50% 50%;
     -webkit-mask-size: 100%;
-    mask: url('../images/icon.svg') no-repeat 50%;
-
+    mask: url("../images/icon.svg") no-repeat 50%;
 }
 
 .project-links {
@@ -156,40 +153,24 @@ section.projects {
     border-radius: 10px;
     min-width: 46%;
     text-align: center;
-
 }
 
-.project-link:hover{
+.project-link:hover {
     transition: all 150ms;
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-
-    
 }
 
 .project-link {
     transition: all 250ms;
 }
 
-
 /* Media queries */
 
-@media screen and (min-width: 1100px) {
-
-
-}
-
-@media screen and (max-width: 1368px) {
-    
-
-}
 @media screen and (min-width: 768px) {
     section.projects {
         align-items: flex-start;
         padding-left: 10rem;
-
-
     }
-
 }
