@@ -1,0 +1,31 @@
+{
+    "name": "jameso.dev",
+    "version": "1.0.0",
+    "description": "This is my portfolio website.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "snowpack dev",
+        "build": "snowpack build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JamesODonoghue/jameso.dev.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JamesODonoghue/jameso.dev/issues"
+    },
+    "homepage": "https://github.com/JamesODonoghue/jameso.dev#readme",
+    "dependencies": {
+        "autoprefixer": "^10.2.4",
+        "browserify": "^17.0.0",
+        "chartjs-web-components": "^2.7.1",
+        "postcss": "^8.2.5",
+        "tailwindcss": "^2.0.2"
+    },
+    "devDependencies": {
+        "snowpack": "^3.0.11"
+    }
+}
