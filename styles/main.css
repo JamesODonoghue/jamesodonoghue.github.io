@@ -1,0 +1,11 @@
+.squircle {
+    --smooth-corners: 30;
+    mask-image: paint(smooth-corners);
+    -webkit-mask-image: paint(smooth-corners);
+}
+
+.button {
+    --smooth-corners: 7;
+    mask-image: paint(smooth-corners);
+    -webkit-mask-image: paint(smooth-corners);
+}
