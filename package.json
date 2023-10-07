@@ -22,7 +22,7 @@
         "autoprefixer": "^10.2.4",
         "browserify": "^17.0.0",
         "chartjs-web-components": "^2.7.1",
-        "postcss": "^8.2.13",
+        "postcss": "^8.4.31",
         "tailwindcss": "^3.2.1"
     },
     "devDependencies": {
